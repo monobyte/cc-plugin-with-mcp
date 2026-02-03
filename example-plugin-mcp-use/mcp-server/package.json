@@ -1,0 +1,28 @@
+{
+  "name": "task-manager-mcp-server",
+  "version": "1.0.0",
+  "description": "Task management MCP server built with mcp-use",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "task-manager-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "inspect": "PORT=3000 node dist/index.js"
+  },
+  "dependencies": {
+    "mcp-use": "^0.5.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
