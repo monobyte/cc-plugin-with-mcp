@@ -1,0 +1,11 @@
+{
+  "name": "example-plugin-mcp-use",
+  "version": "1.0.0",
+  "description": "Example Claude Code plugin using mcp-use library for simpler MCP server implementation",
+  "author": {
+    "name": "Example Developer",
+    "email": "developer@example.com"
+  },
+  "license": "MIT",
+  "keywords": ["example", "tutorial", "mcp", "mcp-use", "skills", "commands"]
+}
