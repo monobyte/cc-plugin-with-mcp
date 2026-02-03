@@ -1,0 +1,11 @@
+{
+  "name": "example-plugin",
+  "version": "1.0.0",
+  "description": "A basic example Claude Code plugin demonstrating skills, commands, resources, and an embedded MCP server",
+  "author": {
+    "name": "Example Developer",
+    "email": "developer@example.com"
+  },
+  "license": "MIT",
+  "keywords": ["example", "tutorial", "mcp", "skills", "commands"]
+}
